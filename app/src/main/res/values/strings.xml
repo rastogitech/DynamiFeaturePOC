@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DynamicFeaturePOC</string>
+    <string name="title_installtimedelivery">Install Time Delivery</string>
+    <string name="title_activity_main">Dynamic Feature</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_ondemanddelivery">OnDemandDelivery</string>
+    <string name="title_conditionaldelivery">ConditionalDelivery</string>
+    <string name="title_activity_install_time">InstallTimeActivity</string>
+    <string name="open_install_time_screen">Open Install Time screen</string>
+    <string name="open_on_demand_screen">Open On Demand screen</string>
+    <string name="open_conditional_screen">Open Conditional screen</string>
+</resources>

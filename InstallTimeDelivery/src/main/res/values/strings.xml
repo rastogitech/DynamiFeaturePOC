@@ -1,0 +1,4 @@
+<resources>
+    <!-- Strings used for fragments for navigation -->
+    <string name="install_time_screen">Install Time Screen</string>
+</resources>

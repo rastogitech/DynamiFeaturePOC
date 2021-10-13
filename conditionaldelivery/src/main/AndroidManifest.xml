@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.ula.conditionaldelivery">
+
+    <dist:module
+        dist:instant="false"
+        dist:title="@string/title_conditionaldelivery">
+        <dist:delivery>
+            <dist:install-time>
+                <dist:conditions>
+                    <dist:min-sdk dist:value="28" />
+
+                    <dist:max-sdk dist:value="31" />
+
+                    <dist:device-feature dist:name="android.hardware.camera.ar" />
+
+                    <dist:user-countries dist:exclude="false">
+                        <dist:country dist:code="in" />
+                        <dist:country dist:code="id" />
+                        <dist:country dist:code="us" />
+                        <dist:country dist:code="sg" />
+                    </dist:user-countries>
+
+                </dist:conditions>
+            </dist:install-time>
+        </dist:delivery>
+
+        <dist:fusing dist:include="false" />
+    </dist:module>
+
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="false" />
+
+    <application>
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="optional" />
+
+        <meta-data
+            android:name="com.google.ar.core.min_apk_version"
+            android:value="24" />
+    </application>
+
+</manifest>
